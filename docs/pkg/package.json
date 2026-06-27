@@ -1,0 +1,15 @@
+{
+  "name": "rudis_web",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rudis_web_bg.wasm",
+    "rudis_web.js",
+    "rudis_web.d.ts"
+  ],
+  "main": "rudis_web.js",
+  "types": "rudis_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
